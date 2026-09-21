@@ -1,25 +1,25 @@
 class Gomoku < Formula
   desc "Play Gomoku (Renju rules) with a friend, in your terminal."
   homepage "https://github.com/Seol-JY/gomoku"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.0/gomoku-aarch64-apple-darwin.tar.xz"
-      sha256 "24da26c0c9c3e9e96b66d9e77ed04d2a02131a6482c20a63e01adc2e4c7b47d3"
+      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.1/gomoku-aarch64-apple-darwin.tar.xz"
+      sha256 "10121aa6d353197a972aaae4a803f76b42cb2984d346ba8cc2325fab56075087"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.0/gomoku-x86_64-apple-darwin.tar.xz"
-      sha256 "c5eedc148204ad24fc8c5358049534fa99810dfa742bc2e4a075d61ae43ef2ab"
+      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.1/gomoku-x86_64-apple-darwin.tar.xz"
+      sha256 "db13e9e58086b1d67ff44b85b90ac6ac781873216b5dff85190e46c87468efb5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.0/gomoku-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "25e7af5056982d8d38647dea9f51baad69f13ae0dc7d649f79c622066747f1f1"
+      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.1/gomoku-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "23db5082c507c85e52dddf152e05126d00ee2c180338ac393095664aaa21a966"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.0/gomoku-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "27d57d1dc0c9b53563b7983c2bff9ea259c14ddf6aaf5618d2821860e71ca264"
+      url "https://github.com/Seol-JY/gomoku/releases/download/v0.1.1/gomoku-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6900e54992ec7b0c1bf48ddf8c7d50f8960f60a811623e1abc196b57b5b9a57e"
     end
   end
   license "MIT"
